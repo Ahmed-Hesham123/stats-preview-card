@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Google Fonts Library -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style Sheet -->
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+  </head>
+  <body>
+    <main>
+      <section class="stats-section">
+        <div class="main-stats container">
+          <div class="grid grid-2--cols">
+            <div class="text-content">
+              <h1 class="heading-primary">
+                Get <span class="insights">insights</span> that help your
+                business grow.
+              </h1>
+              <p class="discription">
+                Discover the benefits of data analytics and make better
+                decisions regarding revenue, customer experience, and overall
+                efficiency.
+              </p>
+              <ul class="stats">
+                <li class="stat">
+                  <p class="num">10K+</p>
+                  <p class="text">companies</p>
+                </li>
+                <li class="stat">
+                  <p class="num">314</p>
+                  <p class="text">templates</p>
+                </li>
+                <li class="stat">
+                  <p class="num">12M+</p>
+                  <p class="text">queries</p>
+                </li>
+              </ul>
+            </div>
+            <picture class="img-box">
+              <source
+                class="img"
+                media="(min-width: 747px)"
+                srcset="images/image-header-desktop.jpg"
+              />
+              <img
+                class="img-banner"
+                src="images/image-header-mobile.jpg"
+                alt=""
+              />
+            </picture>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ahmed Hesham</a>.
+    </footer>
+  </body>
+</html>
